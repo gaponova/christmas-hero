@@ -15,26 +15,78 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <!-- Google Fonts ============================================ -->
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
 
   <!-- style CSS ============================================ -->
-
-  <link rel="stylesheet" href="css/normalize.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
-  <link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- title ============================================ -->
-
-  <title></title>
+  <title>Christmas-hero</title>
 </head>
 
 <body>
 
+  <div class="wrapper">
+    <div class="hero">
+      <header class="header">
+        <div class="container">
+          <div class="header__body">
+            <a href="#" class="header__logo logo"><img src="img/logo.svg" alt="logo"></a>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li><a href="#" class="header__link">Lights</a></li>
+                <li><a href="#" class="header__link">Trees</a></li>
+                <li><a href="#" class="header__link">Decorations</a></li>
+                <li><a href="#" class="header__link">Baubles</a></li>
+                <li><a href="#" class="header__link">Wreaths & Garlands</a></li>
+              </ul>
+              <div class="user-block">
+                <button class="user-block__login" type="button" name="login">Login</button>
+                <button class="user-block__signup btn" type="button" name="signup">Sign up</button>
+              </div>
+            </nav>
+            <div class="header__burger">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="hero-info">
+        <div class=" container">
+          <div class="hero-info__body">
+            <div class="hero-info__info">
+              <p class="hero-info__subtitle">Cosy Christmas</p>
+              <h1 class="hero-info__title">Perfect for the<br> neutral themed<br> holiday Decor</h1>
+              <p class="hero-info__text">Santa has sent this very special video to tell you all about his new way of visiting this year.</p>
+            </div>
+            <div class="hero-action">
+              <a href="#" class="hero-action__shop btn">Shop Now</a>
+              <a href="https://youtu.be/yJcCKuxfb2o" class="hero-action__watch btn btn_transparent" data-fancybox=""><img src="img/play.svg">Watch this Video</a>
+            </div>
+            <div class="hero-info__img">
+              <img src="img/hero.svg" alt="firtree">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-footer">
+        <p class="hero-footer__info">Its all about Christmas</p>
+        <img class="hero-footer__payment" src="img/pay.svg" alt="payment">
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- JS ============================================ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/fancy.js"></script>
+  <script src="js/menu-burger.js"></script>
 </body>
 
 </html>
