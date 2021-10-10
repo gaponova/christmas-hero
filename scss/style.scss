@@ -126,26 +126,21 @@ body {
       line-height: 125%;
       color: $light-grey;
       background-color: transparent;
-
     }
 
     &__signup {
       margin: 0 0 0 45px;
     }
   }
-
 }
 
 .hero-info {
   position: relative;
-
   margin: 195px 0 170px;
 
 
   &__body {
     max-width: 719px;
-
-
   }
 
   &__info {
@@ -223,9 +218,6 @@ body {
   }
 }
 
-
-
-
 @media screen and (max-width: 1574px) {
 
 
@@ -296,11 +288,6 @@ body {
     }
   }
 }
-
-
-
-
-
 
 @media screen and (max-width: 1200px) {
   .wrapper {
@@ -445,8 +432,6 @@ body {
       flex-direction: column;
       margin: 0;
 
-      a {}
-
       &__login {
         color: #fff;
         padding: 10px 20px;
@@ -485,5 +470,4 @@ body {
       margin-left: 0;
     }
   }
-
 }
