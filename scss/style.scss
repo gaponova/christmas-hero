@@ -53,11 +53,19 @@ body {
   color: #FFFFFF;
   padding: 22px 37px;
   border-radius: 16px;
+  transition: .3s;
+
+  &:hover {
+    box-shadow: 0 14px 20px -5px#e11438;
+  }
 }
+
+
 
 .btn_transparent {
   background-color: transparent;
   border: 1.5px solid #C9D2DC;
+  transition: .3s;
 }
 
 .header {
@@ -100,6 +108,11 @@ body {
     line-height: 125%;
     color: #5E6567;
     padding: 10px 35px;
+    transition: .3s;
+
+    &:hover {
+      color: #ffffff;
+    }
   }
 
   &__burger {
@@ -126,6 +139,11 @@ body {
       line-height: 125%;
       color: $light-grey;
       background-color: transparent;
+      transition: .3s;
+
+      &:hover {
+        color: #ffffff;
+      }
     }
 
     &__signup {
@@ -197,6 +215,7 @@ body {
     @extend %f-size;
     padding: 22px 30px;
     margin: 0 0 20px 27px;
+    text-shadow: 0 8px 13px black;
 
     img {
       margin: 0 11px 0 0;
@@ -267,7 +286,7 @@ body {
 
   .hero {
     max-width: 1200px;
-    padding: 13px 0 80px 0;
+    padding: 0 0 80px 0;
     margin-bottom: 0;
   }
 
@@ -284,7 +303,6 @@ body {
   .user-block {
     &__signup {
       padding: 15px 25px;
-      border-radius: 5px;
     }
   }
 }
@@ -302,11 +320,7 @@ body {
     background: #2a333b;
   }
 
-  .user-block {
-    &__signup {
-      padding: 10px 20px;
-    }
-  }
+
 
   .hero-info {
     margin: 70px 0 0 0;
@@ -420,10 +434,13 @@ body {
     }
 
     &__list {
+      width: 100%;
       flex-direction: column;
       align-items: center;
+      text-align: center;
 
       li {
+        width: 100%;
         margin: 0;
       }
     }
@@ -451,8 +468,14 @@ body {
 
 @media screen and (max-width: 486px) {
 
-  .hero-info__title {
-    font-size: 3rem;
+  .hero-info {
+    &__info {
+      margin: 0 0 30px 0;
+    }
+
+    &__title {
+      font-size: 3rem;
+    }
   }
 
   .hero-action {
